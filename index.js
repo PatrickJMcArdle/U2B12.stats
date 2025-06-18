@@ -34,7 +34,7 @@ function getMean(numbers) {
  */
 function getMin(numbers) {
   // TODO
-  let minNumber = "";
+  let minNumber = Infinity;
   for (number of numbers) {
     if (number <= minNumber) {
       minNumber = number;
@@ -80,6 +80,15 @@ function getEvens(numbers) {
     }
   }
   return evens;
+
+  // const evens = [];
+  // for (const n of numbers) {
+  //   if (n % 2 === 0) {
+  //     evens.push(n)
+  //   }
+  // }
+  // return evens
+  // ^ how to do it in an array ^
 }
 
 /**
